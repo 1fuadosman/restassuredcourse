@@ -18,7 +18,7 @@ public class MyFirstTest extends TestConfig {
 
     @Test
     public void getAllGames() {
-        when().get(EndPoint.GET_VIDEOGAMES);
+        when().get(EndPoint.VIDEOGAMES);
     }
 
 

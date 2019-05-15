@@ -26,6 +26,7 @@ public class TestConfig {
                 addHeader("Accept", "application/json").
                 build();
 
+        //ToDO: in the headerValue below, add the api key
         football_requestSpec = new RequestSpecBuilder().
                 setBaseUri("http://api.football-data.org").
                 setBasePath("v1").
@@ -42,7 +43,7 @@ public class TestConfig {
         //responSpec name
 
         responseSpec = new ResponseSpecBuilder().
-                expectStatusCode(201).
+                expectStatusCode(200).
                 build();
 
         /*
