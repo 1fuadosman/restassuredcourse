@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e09ad45-f8f9-4006-a275-dd6b65ba6175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/EndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/EndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/EndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/EndPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VideoGameDBTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VideoGameDBTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,17 +21,33 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/EndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="343">
               <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/VideoGameDBTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-17">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,23 +77,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/response/Validatable.class">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/RestAssured.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/RequestSpecification.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -102,18 +119,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/MyFirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/config/EndPoint.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="563" />
-    <option name="y" value="110" />
-    <option name="width" value="928" />
-    <option name="height" value="736" />
+    <option name="x" value="161" />
+    <option name="y" value="241" />
+    <option name="width" value="1469" />
+    <option name="height" value="1118" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -130,6 +150,12 @@
               <item name="restassuredcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="restassuredcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restassuredcourse" type="b2602c69:ProjectViewProjectNode" />
@@ -164,6 +190,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558020969454" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -184,7 +211,6 @@
       <module name="restassuredcourse" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VideoGameDBTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,81 +238,79 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 22h 50m 57s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 15s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 02m 23s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 30s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 02m 50s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 42s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 05m 38s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 50s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 07m 06s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 26m 11s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 10m 51s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 26m 28s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 11m 35s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 26m 41s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 13m 05s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 26m 47s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 13m 59s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 26m 55s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VideoGameDBTests - 2019.05.15 at 23h 14m 41s.xml">
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 27m 06s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4060000" />
+    <option name="totallyTimeSpent" value="5666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="563" y="110" width="928" height="736" extended-state="0" />
+    <frame x="161" y="241" width="1469" height="1118" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24604966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28661528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42391303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42389524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4017946" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/response/Validatable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -299,17 +323,6 @@
         <state relative-caret-position="30">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -317,15 +330,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/config/EndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VideoGameDBTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="-17">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,4 @@
+config/EndPoint.class
+tests/VideoGameDBTests.class
+config/TestConfig.class
+MyFirstTest.class

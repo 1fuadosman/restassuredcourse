@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="1113" started-at="2019-05-16T15:40:30Z" finished-at="2019-05-16T15:40:31Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="1113" started-at="2019-05-16T15:40:30Z" finished-at="2019-05-16T15:40:31Z">
+      <class name="tests.VideoGameDBTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.VideoGameDBTests@4e04a765]" name="setup" is-config="true" duration-ms="418" started-at="2019-05-16T15:40:30Z" finished-at="2019-05-16T15:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllGames()[pri:1, instance:tests.VideoGameDBTests@4e04a765]" name="getAllGames" duration-ms="619" started-at="2019-05-16T15:40:30Z" finished-at="2019-05-16T15:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGames -->
+        <test-method status="PASS" signature="createNewGameByJSON()[pri:2, instance:tests.VideoGameDBTests@4e04a765]" name="createNewGameByJSON" duration-ms="29" started-at="2019-05-16T15:40:31Z" finished-at="2019-05-16T15:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewGameByJSON -->
+        <test-method status="PASS" signature="updateGame()[pri:3, instance:tests.VideoGameDBTests@4e04a765]" name="updateGame" duration-ms="16" started-at="2019-05-16T15:40:31Z" finished-at="2019-05-16T15:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGame -->
+        <test-method status="PASS" signature="deleteGame()[pri:4, instance:tests.VideoGameDBTests@4e04a765]" name="deleteGame" duration-ms="15" started-at="2019-05-16T15:40:31Z" finished-at="2019-05-16T15:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGame -->
+      </class> <!-- tests.VideoGameDBTests -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
