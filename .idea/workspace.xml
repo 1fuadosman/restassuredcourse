@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e09ad45-f8f9-4006-a275-dd6b65ba6175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/VideoGameDBTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VideoGameDBTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/VideoGameDBTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VideoGameDBTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.VideoGameDBTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.VideoGameDBTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/softwaretestingmaterial/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/softwaretestingmaterial/testngTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/softwaretestingmaterial/testngTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/softwaretestingmaterial/testngTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/softwaretestingmaterial/testngTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/VideoGameDBTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/VideoGameDBTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -34,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="90">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,20 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/VideoGameDBTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VideoGameDBTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="218">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -120,16 +131,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/config/EndPoint.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/config/TestConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/VideoGameDBTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/VideoGameDBTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="241" />
+    <option name="x" value="1057" />
+    <option name="y" value="114" />
     <option name="width" value="1469" />
     <option name="height" value="1118" />
   </component>
@@ -178,6 +190,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="restassuredcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -190,7 +210,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558020969454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558022411070" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -210,7 +230,7 @@
     <configuration name="VideoGameDBTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restassuredcourse" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VideoGameDBTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.VideoGameDBTests" />
       <properties />
       <listeners />
       <method v="2">
@@ -238,9 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 15s.xml">
-      <configuration name="VideoGameDBTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 24m 30s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
@@ -268,15 +285,18 @@
     <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 27m 06s.xml">
       <configuration name="VideoGameDBTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="VideoGameDBTests - 2019.05.16 at 16h 59m 30s.xml">
+      <configuration name="VideoGameDBTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5666000" />
+    <option name="totallyTimeSpent" value="7172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="241" width="1469" height="1118" extended-state="0" />
+    <frame x="1057" y="114" width="1469" height="1118" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28661528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28661528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -285,14 +305,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42389524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42372882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4017946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4017946" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
@@ -318,16 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/config/EndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -335,34 +345,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VideoGameDBTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/config/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VideoGameDBTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

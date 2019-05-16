@@ -2,13 +2,16 @@ package tests;
 
 import config.EndPoint;
 import config.TestConfig;
+import org.testng.ITestNGListener;
+import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
 public class VideoGameDBTests extends TestConfig {
 
-    int random = (int)(Math.random() * 500000 + 1);
+
 
     @Test(priority = 1)
     public void getAllGames() {
@@ -17,7 +20,7 @@ public class VideoGameDBTests extends TestConfig {
         then();
     }
 
-    @Test(priority = 2)
+    @Test
     public void createNewGameByJSON() {
         String gameBodyJson = "{\n" +
                 "  \"id\": " + random  + ",\n" +
