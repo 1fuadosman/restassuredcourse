@@ -51,7 +51,6 @@ public class VideoGame extends TestConfig {
         when().
                 put("/videogames/" + testID).
         then();
-
     }
 
     @Test(priority = 4)

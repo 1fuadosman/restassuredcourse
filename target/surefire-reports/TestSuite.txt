@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 22.406 s <<< FAILURE! - in TestSuite
-getAllGames(tests.VideoGame)  Time elapsed: 1.197 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <201> but was <200>.
-
-	at tests.VideoGame.getAllGames(VideoGame.java:17)
-
-deleteGame(tests.VideoGameDBTests)  Time elapsed: 0.031 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <404> but was <200>.
-
-	at tests.VideoGameDBTests.deleteGame(VideoGameDBTests.java:65)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.639 s - in TestSuite
