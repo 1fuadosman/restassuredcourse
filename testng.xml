@@ -6,10 +6,5 @@
             <class name="tests.VideoGame" />
         </classes>
     </test>
-    <test name="testngTests">
-        <classes>
-            <class name="tests.VideoGameDBTests" />
-        </classes>
-    </test>
 </suite>
 

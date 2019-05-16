@@ -2,8 +2,9 @@ package tests;
 
 import config.EndPoint;
 import config.TestConfig;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import static org.hamcrest.Matchers.equalTo;
 import static io.restassured.RestAssured.given;
 
 public class VideoGame extends TestConfig {
@@ -49,15 +50,15 @@ public class VideoGame extends TestConfig {
         given().
                 body(gameBodyJson).
         when().
-                put("/videogames/" + testID).
+                put(EndPoint.VIDEOGAMES + testID).
         then();
     }
 
-    @Test(priority = 4)
+    @Test
     public void deleteGame() {
         given().
         when().
-                delete("/videogames/" + testID).
+                delete(EndPoint.VIDEOGAMES + testID).
         then();
     }
 

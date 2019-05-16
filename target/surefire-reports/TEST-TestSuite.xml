@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.639" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.669" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/fuadosman/repos/restassuredcourse/target/surefire/surefirebooter6970742954594664844.jar /Users/fuadosman/repos/restassuredcourse/target/surefire 2019-05-16T19-03-21_583-jvmRun1 surefire5473184454376356133tmp surefire_08971188902347776840tmp"/>
+    <property name="sun.java.command" value="/Users/fuadosman/repos/restassuredcourse/target/surefire/surefirebooter2645231687303705510.jar /Users/fuadosman/repos/restassuredcourse/target/surefire 2019-05-16T23-46-30_629-jvmRun1 surefire8259297099218836614tmp surefire_01379655556709809709tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/fuadosman/repos/restassuredcourse/target/test-classes:/Users/fuadosman/repos/restassuredcourse/target/classes:/Users/fuadosman/.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar:/Users/fuadosman/.m2/repository/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar:/Users/fuadosman/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar:/Users/fuadosman/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/fuadosman/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/fuadosman/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/fuadosman/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/fuadosman/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/fuadosman/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/fuadosman/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/fuadosman/.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/Users/fuadosman/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/fuadosman/.m2/repository/io/rest-assured/json-path/4.0.0/json-path-4.0.0.jar:/Users/fuadosman/.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/fuadosman/.m2/repository/io/rest-assured/rest-assured-common/4.0.0/rest-assured-common-4.0.0.jar:/Users/fuadosman/.m2/repository/io/rest-assured/xml-path/4.0.0/xml-path-4.0.0.jar:/Users/fuadosman/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/fuadosman/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/fuadosman/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/fuadosman/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/fuadosman/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/fuadosman/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/fuadosman/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/fuadosman/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/fuadosman/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/fuadosman/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/fuadosman/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/fuadosman/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/fuadosman/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/fuadosman/repos/restassuredcourse/target/surefire/surefirebooter6970742954594664844.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fuadosman/repos/restassuredcourse/target/surefire/surefirebooter2645231687303705510.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,12 +61,8 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="getAllGames" classname="tests.VideoGame" time="0.742"/>
-  <testcase name="createNewGameByJSON" classname="tests.VideoGame" time="0.036"/>
-  <testcase name="updateGame" classname="tests.VideoGame" time="0.019"/>
-  <testcase name="deleteGame" classname="tests.VideoGame" time="0.018"/>
-  <testcase name="getAllGames" classname="tests.VideoGameDBTests" time="0.014"/>
-  <testcase name="createNewGameByJSON" classname="tests.VideoGameDBTests" time="0.014"/>
-  <testcase name="updateGame" classname="tests.VideoGameDBTests" time="0.017"/>
-  <testcase name="deleteGame" classname="tests.VideoGameDBTests" time="0.013"/>
+  <testcase name="deleteGame" classname="tests.VideoGame" time="0.809"/>
+  <testcase name="getAllGames" classname="tests.VideoGame" time="0.027"/>
+  <testcase name="createNewGameByJSON" classname="tests.VideoGame" time="0.053"/>
+  <testcase name="updateGame" classname="tests.VideoGame" time="0.027"/>
 </testsuite>
