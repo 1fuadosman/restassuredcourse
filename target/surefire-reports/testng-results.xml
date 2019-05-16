@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="1096" started-at="2019-05-16T16:01:58Z" finished-at="2019-05-16T16:01:59Z">
+  <suite name="softwaretestingmaterial" duration-ms="1105" started-at="2019-05-16T16:13:30Z" finished-at="2019-05-16T16:13:31Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="1096" started-at="2019-05-16T16:01:58Z" finished-at="2019-05-16T16:01:59Z">
+    <test name="testngTest" duration-ms="1105" started-at="2019-05-16T16:13:30Z" finished-at="2019-05-16T16:13:31Z">
       <class name="tests.VideoGameDBTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.VideoGameDBTests@4e04a765]" name="setup" is-config="true" duration-ms="413" started-at="2019-05-16T16:01:58Z" finished-at="2019-05-16T16:01:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.VideoGameDBTests@42d3bd8b]" name="setup" is-config="true" duration-ms="416" started-at="2019-05-16T16:13:30Z" finished-at="2019-05-16T16:13:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createNewGameByJSON()[pri:0, instance:tests.VideoGameDBTests@4e04a765]" name="createNewGameByJSON" duration-ms="613" started-at="2019-05-16T16:01:59Z" finished-at="2019-05-16T16:01:59Z">
+        <test-method status="PASS" signature="createNewGameByJSON()[pri:0, instance:tests.VideoGameDBTests@42d3bd8b]" name="createNewGameByJSON" duration-ms="617" started-at="2019-05-16T16:13:30Z" finished-at="2019-05-16T16:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewGameByJSON -->
-        <test-method status="PASS" signature="getAllGames()[pri:1, instance:tests.VideoGameDBTests@4e04a765]" name="getAllGames" duration-ms="30" started-at="2019-05-16T16:01:59Z" finished-at="2019-05-16T16:01:59Z">
+        <test-method status="PASS" signature="getAllGames()[pri:1, instance:tests.VideoGameDBTests@42d3bd8b]" name="getAllGames" duration-ms="28" started-at="2019-05-16T16:13:31Z" finished-at="2019-05-16T16:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllGames -->
-        <test-method status="PASS" signature="updateGame()[pri:3, instance:tests.VideoGameDBTests@4e04a765]" name="updateGame" duration-ms="15" started-at="2019-05-16T16:01:59Z" finished-at="2019-05-16T16:01:59Z">
+        <test-method status="PASS" signature="updateGame()[pri:3, instance:tests.VideoGameDBTests@42d3bd8b]" name="updateGame" duration-ms="15" started-at="2019-05-16T16:13:31Z" finished-at="2019-05-16T16:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateGame -->
-        <test-method status="PASS" signature="deleteGame()[pri:4, instance:tests.VideoGameDBTests@4e04a765]" name="deleteGame" duration-ms="13" started-at="2019-05-16T16:01:59Z" finished-at="2019-05-16T16:01:59Z">
+        <test-method status="PASS" signature="deleteGame()[pri:4, instance:tests.VideoGameDBTests@42d3bd8b]" name="deleteGame" duration-ms="13" started-at="2019-05-16T16:13:31Z" finished-at="2019-05-16T16:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteGame -->

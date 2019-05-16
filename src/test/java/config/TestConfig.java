@@ -12,7 +12,8 @@ public class TestConfig {
     public static RequestSpecification videoGame_requestSpec;
     public static RequestSpecification football_requestSpec;
     public static ResponseSpecification responseSpec;
-    public static int random = (int)(Math.random() * 500000 + 1);
+    //public static int testID = (int)(Math.random() * 500000 + 1);
+    public static int testID =27127281;
 
     @BeforeClass
     public static void setup() {

@@ -20,10 +20,10 @@ public class VideoGameDBTests extends TestConfig {
         then();
     }
 
-    @Test
+    @Test(priority = 1)
     public void createNewGameByJSON() {
         String gameBodyJson = "{\n" +
-                "  \"id\": " + random  + ",\n" +
+                "  \"id\": " + testID  + ",\n" +
                 "  \"name\": \"myNewGame\",\n" +
                 "  \"releaseDate\": \"2019-05-15T21:07:29.311Z\",\n" +
                 "  \"reviewScore\": 0,\n" +
@@ -41,7 +41,7 @@ public class VideoGameDBTests extends TestConfig {
     @Test(priority = 3)
     public void updateGame() {
         String gameBodyJson = "{\n" +
-                "  \"id\": " + random  + ",\n" +
+                "  \"id\": " + testID  + ",\n" +
                 "  \"name\": \"myUpdateGame\",\n" +
                 "  \"releaseDate\": \"2019-05-15T21:07:29.311Z\",\n" +
                 "  \"reviewScore\": 0,\n" +
@@ -52,7 +52,7 @@ public class VideoGameDBTests extends TestConfig {
         given().
                 body(gameBodyJson).
         when().
-                put("/videogames/" + random).
+                put("/videogames/" + testID).
         then();
 
     }
@@ -61,7 +61,7 @@ public class VideoGameDBTests extends TestConfig {
     public void deleteGame() {
         given().
         when().
-                delete("/videogames/" + random).
+                delete("/videogames/" + testID).
         then();
     }
 
