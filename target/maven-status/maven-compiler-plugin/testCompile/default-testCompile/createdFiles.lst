@@ -1,4 +1,5 @@
 config/EndPoint.class
+tests/VideoGame.class
 tests/VideoGameDBTests.class
 config/TestConfig.class
 MyFirstTest.class

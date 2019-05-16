@@ -2,14 +2,11 @@ package tests;
 
 import config.EndPoint;
 import config.TestConfig;
-import org.testng.ITestNGListener;
-import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
-public class VideoGameDBTests extends TestConfig {
+public class VideoGame extends TestConfig {
 
 
 

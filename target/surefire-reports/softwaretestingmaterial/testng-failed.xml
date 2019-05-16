@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" verbose="0" name="testngTest(failed)">
+    <classes>
+      <class name="tests.VideoGame">
+        <methods>
+          <include name="setup"/>
+          <include name="getAllGames"/>
+        </methods>
+      </class> <!-- tests.VideoGame -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+  <test thread-count="5" verbose="0" name="testngTests(failed)">
+    <classes>
+      <class name="tests.VideoGameDBTests">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteGame"/>
+        </methods>
+      </class> <!-- tests.VideoGameDBTests -->
+    </classes>
+  </test> <!-- testngTests(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

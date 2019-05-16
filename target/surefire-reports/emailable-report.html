@@ -9,13 +9,71 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">softwaretestingmaterial</th></tr>
-<tr><td><a href="#t0">testngTest</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">1,105</td><td></td><td></td></tr>
+<tr><td><a href="#t0">testngTest</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,866</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">testngTests</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">113</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num attn">2</th><th class="num">1,979</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">softwaretestingmaterial</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testngTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.VideoGameDBTests</td><td><a href="#m0">createNewGameByJSON</a></td><td rowspan="1">1558023210580</td><td rowspan="1">617</td></tr><tr class="passedeven"><td><a href="#m1">deleteGame</a></td><td rowspan="1">1558023211243</td><td rowspan="1">13</td></tr><tr class="passedeven"><td><a href="#m2">getAllGames</a></td><td rowspan="1">1558023211200</td><td rowspan="1">28</td></tr><tr class="passedeven"><td><a href="#m3">updateGame</a></td><td rowspan="1">1558023211228</td><td rowspan="1">15</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">softwaretestingmaterial</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testngTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.VideoGame</td><td><a href="#m0">getAllGames</a></td><td rowspan="1">1558028741470</td><td rowspan="1">1187</td></tr><tr><th colspan="4">testngTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.VideoGame</td><td><a href="#m1">createNewGameByJSON</a></td><td rowspan="1">1558028742668</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m2">deleteGame</a></td><td rowspan="1">1558028742753</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m3">updateGame</a></td><td rowspan="1">1558028742718</td><td rowspan="1">34</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">testngTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.VideoGameDBTests</td><td><a href="#m4">deleteGame</a></td><td rowspan="1">1558028747891</td><td rowspan="1">30</td></tr><tr><th colspan="4">testngTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.VideoGameDBTests</td><td><a href="#m5">createNewGameByJSON</a></td><td rowspan="1">1558028747846</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m6">getAllGames</a></td><td rowspan="1">1558028747821</td><td rowspan="1">25</td></tr><tr class="passedeven"><td><a href="#m7">updateGame</a></td><td rowspan="1">1558028747863</td><td rowspan="1">19</td></tr></tbody>
 </table>
-<h2>testngTest</h2><h3 id="m0">tests.VideoGameDBTests#createNewGameByJSON</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.VideoGameDBTests#deleteGame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.VideoGameDBTests#getAllGames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.VideoGameDBTests#updateGame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>testngTest</h2><h3 id="m0">tests.VideoGame#getAllGames</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at tests.VideoGame.getAllGames(VideoGame.java:17)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.VideoGame#createNewGameByJSON</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.VideoGame#deleteGame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.VideoGame#updateGame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>testngTests</h2><h3 id="m4">tests.VideoGameDBTests#deleteGame</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at tests.VideoGameDBTests.deleteGame(VideoGameDBTests.java:65)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.VideoGameDBTests#createNewGameByJSON</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.VideoGameDBTests#getAllGames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.VideoGameDBTests#updateGame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
